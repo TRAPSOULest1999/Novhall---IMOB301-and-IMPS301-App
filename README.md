@@ -5,7 +5,7 @@ Mobile Development ,and Multi-Platform and Cloud Systems modules.
 
 Used Kotlin with Firebase for backend.
 
-##What I learnt:
+## What I learnt:
 
 ~ Creating a recycler view
 
