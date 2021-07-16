@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".RegisterActivity">
+
+    <ImageView
+        android:id="@+id/img_book"
+        android:layout_width="120dp"
+        android:layout_height="150dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="51dp"
+        android:layout_marginEnd="252dp"
+        android:layout_marginBottom="530dp"
+        app:srcCompat="@drawable/ic_open_book_svgrepo_com__1_" />
+
+    <EditText
+        android:id="@+id/edit_reg_txt_username"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="272dp"
+        android:layout_marginEnd="74dp"
+        android:layout_marginBottom="419dp"
+        android:background="#11000000"
+        android:ems="10"
+        android:hint="Email(As username)"
+        android:inputType="textPersonName"
+        android:textSize="16dp" />
+
+
+    <EditText
+        android:id="@+id/edit_reg_txt_password"
+        android:layout_width="250dp"
+        android:layout_height="38dp"
+        android:layout_alignStart="@+id/edit_admin_txt_username"
+        android:layout_alignLeft="@+id/edit_admin_txt_username"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="344dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="349dp"
+        android:background="#11000000"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/edit_reg_txt_fav_genre"
+        android:layout_width="250dp"
+        android:layout_height="38dp"
+        android:layout_alignStart="@+id/edit_admin_txt_username"
+        android:layout_alignLeft="@+id/edit_admin_txt_username"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="416dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="277dp"
+        android:background="#11000000"
+        android:ems="10"
+        android:hint="Favourite Genre"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/edit_reg_txt_author"
+        android:layout_width="250dp"
+        android:layout_height="38dp"
+        android:layout_alignStart="@+id/edit_admin_txt_username"
+        android:layout_alignLeft="@+id/edit_admin_txt_username"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="486dp"
+        android:layout_marginEnd="69dp"
+        android:layout_marginBottom="207dp"
+        android:background="#11000000"
+        android:ems="10"
+        android:hint="Favourite Author"
+        android:inputType="textPassword" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/img_book"
+        android:layout_alignLeft="@+id/img_book"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-16dp"
+        android:layout_marginLeft="-16dp"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal">
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView5_"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="271dp"
+        android:layout_marginEnd="333dp"
+        android:layout_marginBottom="418dp"
+        app:srcCompat="@drawable/ic_user_svgrepo_com" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="38dp"
+        android:layout_height="41dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="348dp"
+        android:layout_marginEnd="338dp"
+        android:layout_marginBottom="342dp"
+        app:srcCompat="@drawable/ic_password_svgrepo_com" />
+
+    <TextView
+        android:id="@+id/txt_novhall"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="191dp"
+        android:layout_marginTop="82dp"
+        android:layout_marginEnd="76dp"
+        android:layout_marginBottom="602dp"
+        android:text="NOVHALL"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/btn_admin"
+        android:layout_width="104dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="191dp"
+        android:layout_marginTop="147dp"
+        android:layout_marginEnd="76dp"
+        android:layout_marginBottom="551dp"
+        android:background="@android:color/transparent"
+        android:text="Registration"
+        android:textColor="@color/white"
+        android:textSize="25dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="416dp"
+        android:layout_marginEnd="334dp"
+        android:layout_marginBottom="275dp"
+        android:src="@drawable/ic_reading_svgrepo_com" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="488dp"
+        android:layout_marginEnd="334dp"
+        android:layout_marginBottom="203dp"
+        android:src="@drawable/ic_writer_svgrepo_com" />
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="581dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/mybutton"
+        android:fadingEdge="horizontal"
+        android:padding="10dp"
+        android:text="Register"
+        android:textColor="@color/white" />
+
+</RelativeLayout>
+

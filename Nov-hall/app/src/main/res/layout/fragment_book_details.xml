@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".BookDetailsFragment">
+
+    <ImageView
+        android:id="@+id/img_book"
+        android:layout_width="120dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="51dp"
+        android:layout_marginEnd="252dp"
+        app:srcCompat="@drawable/ic_open_book_svgrepo_com__1_" />
+
+
+    <EditText
+        android:id="@+id/txt_book_title"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="226dp"
+        android:layout_marginEnd="71dp"
+        android:background="#11000000"
+        android:ems="10"
+        android:hint="Title"
+        android:inputType="textPersonName"
+        android:textSize="16dp" />
+
+    <EditText
+        android:id="@+id/txt_book_author"
+        android:layout_width="250dp"
+        android:layout_height="38dp"
+        android:layout_alignStart="@+id/edit_admin_txt_username"
+        android:layout_alignLeft="@+id/edit_admin_txt_username"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginEnd="71dp"
+        android:layout_marginBottom="404dp"
+        android:background="#11000000"
+        android:ems="10"
+        android:hint="Author"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/txt_book_genre"
+        android:layout_width="250dp"
+        android:layout_height="38dp"
+        android:layout_alignStart="@+id/edit_admin_txt_username"
+        android:layout_alignLeft="@+id/edit_admin_txt_username"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="356dp"
+        android:layout_marginEnd="69dp"
+        android:layout_marginBottom="337dp"
+        android:background="#11000000"
+        android:ems="10"
+        android:hint="Genre"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/txt_book_price"
+        android:layout_width="250dp"
+        android:layout_height="38dp"
+        android:layout_alignStart="@+id/edit_admin_txt_username"
+        android:layout_alignLeft="@+id/edit_admin_txt_username"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="423dp"
+        android:layout_marginEnd="69dp"
+        android:layout_marginBottom="270dp"
+        android:background="#11000000"
+        android:ems="10"
+        android:hint="Price"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/txt_book_stock"
+        android:layout_width="250dp"
+        android:layout_height="38dp"
+        android:layout_alignStart="@+id/edit_admin_txt_username"
+        android:layout_alignLeft="@+id/edit_admin_txt_username"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginLeft="-1dp"
+        android:layout_marginTop="485dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="208dp"
+        android:background="#11000000"
+        android:ems="10"
+        android:hint="Stock"
+        android:inputType="textPassword" />
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="-16dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="0dp"
+        android:orientation="horizontal">
+
+
+        <ImageButton
+            android:id="@+id/img_edit"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:background="?android:attr/selectableItemBackground"
+            app:srcCompat="@drawable/ic_action_edit" />
+
+        <ImageButton
+            android:id="@+id/img_delete"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:background="?android:attr/selectableItemBackground"
+            app:srcCompat="@drawable/ic_action_delete" />
+
+        <ImageButton
+            android:id="@+id/img_add"
+            android:layout_width="60dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            app:srcCompat="@drawable/ic_action_name" />
+
+        <ImageButton
+            android:id="@+id/img_minus"
+            android:layout_width="60dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            app:srcCompat="@drawable/ic_action_minus" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView5_"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="226dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="462dp"
+        android:layout_toStartOf="@+id/txt_book_title"
+        app:srcCompat="@drawable/ic_notebook_svgrepo_com" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="38dp"
+        android:layout_height="41dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="13dp"
+        android:layout_marginBottom="401dp"
+        android:layout_toStartOf="@+id/txt_book_author"
+        app:srcCompat="@drawable/ic_writer_svgrepo_com" />
+
+    <TextView
+        android:id="@+id/txt_novhall"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="200dp"
+        android:layout_marginEnd="71dp"
+        android:layout_marginBottom="572dp"
+        android:text="NOVHALL"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="332dp"
+        android:layout_marginBottom="336dp"
+        android:src="@drawable/ic_reading_svgrepo_com" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="332dp"
+        android:layout_marginBottom="272dp"
+        android:src="@drawable/ic_price_tag_svgrepo_com" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="332dp"
+        android:layout_marginBottom="205dp"
+        android:src="@drawable/ic_stock_increase_svgrepo_com" />
+
+    <EditText
+        android:id="@+id/editTextTextMultiLine"
+        android:layout_width="wrap_content"
+        android:layout_height="109dp"
+        android:hint="Description"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="547dp"
+        android:layout_marginEnd="69dp"
+        android:layout_marginBottom="75dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine" />
+
+</RelativeLayout>

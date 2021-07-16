@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1033418390360",
+    "project_id": "novhall",
+    "storage_bucket": "novhall.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1033418390360:android:c2f482994fb35038f3032d",
+        "android_client_info": {
+          "package_name": "com.leope.novhall"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1033418390360-ve8rbevrfil7jiupinjr4su2m84jkhof.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.leope.novhall",
+            "certificate_hash": "8030d8b40d5c0062202fcbb9816c0e3aa278e493"
+          }
+        },
+        {
+          "client_id": "1033418390360-ohua2u36b7v1diqhttijpd9qkftpf0ut.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDj8eTAzArU7CT0YBI-MErctO8uqK5-UsM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1033418390360-ohua2u36b7v1diqhttijpd9qkftpf0ut.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

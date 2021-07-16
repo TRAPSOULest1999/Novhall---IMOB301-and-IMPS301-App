@@ -1,0 +1,22 @@
+ 2 Different Users:
+~ General user
+~ Admin
+
+ General User Capabilities:
+~ Login
+~ Register New user
+~ View available books
+~ Access single book's information
+~ View and Edit user profile
+~ NOT able to edit email and password
+
+ Admin Capabilities: 
+~ Login
+~ View available books
+~ Access single book infomation, edit info, delete book and +/- amount in stock
+
+ Book
+~ if stock<3 then textColour == red.
+~ if stock<=5 and stock>=4 then textColuor == orange.
+~ if stock>5 then textColour == green
+~ if stock == 0 then display "Sold Out"
